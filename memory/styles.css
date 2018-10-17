@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+}
+
+main{
+	width: 630px;
+	height: 630px;
+	background: #cccccc;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 10px;
+	align-content: space-between;
+}
+
+.card{
+	width: 150px;
+	height: 150px;
+	float: left;
+	background: #fff;
+}
+.card img{
+	width: 100%;
+	height: 100%;
+}
+.card.hidden{
+	background: #fff;
+}
+.card.hidden img{
+	display: none;
+}
+
+.card.removed{
+	background: #000 !important;
+}
+.card.removed img{
+	display: none !important;
+}
+.scoreboard {
+	height: 20 px;
+}
+.scoreboard div{
+	width: 50%;
+	float: left;
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: sans;
+}
+
+
+
+
+
