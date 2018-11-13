@@ -1,0 +1,21 @@
+body{
+	background: lightgray;
+	font-family: Arial;
+	margin: 0;
+}
+
+div.header{
+	background: black;
+	color: #eee;
+	height: 60px;
+}
+div.header a{
+	colo: #eeeeee;
+}
+
+.post-wrap{
+	background: #ffffff;
+	border: 2px solid red;
+	margin: 10px;
+	padding: 15px;
+}
